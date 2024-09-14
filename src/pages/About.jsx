@@ -13,7 +13,7 @@ const About = () => {
       </div>
 
       <div className='my-10 flex flex-col md:flex-row gap-16 '>
-        <img className='w-full md:max-w-[500px]' src={assets.store} alt="" />
+        <img className='w-full md:max-w-[500px]' src={assets.store} alt="Store" />
         <div className='flex flex-col justify-center gap-6 md:w-2/4 text-gray-600'>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus quae hic eligendi tenetur asperiores, doloremque dolorem nisi consequuntur ut ipsam id ullam est mollitia nam. Fuga animi consequatur nam ipsum.</p>
           <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam officiis sapiente consequuntur velit similique esse veritatis perferendis cumque dolorem iste. Iusto sit doloribus labore sint facilis quaerat quas eligendi voluptatum.</p>

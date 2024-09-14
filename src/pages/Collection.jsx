@@ -97,7 +97,7 @@ useEffect(() => {
       {/* Filter Options */}
       <div className='min-w-60'>
         <p onClick={() => setShowFilter(!showFilter)} className='mb-2 text-xs sm:text-xl flex items-center cursor-pointer gap-2 leading-7'>FILTERS
-          <img className={`h-3 mx-3 sm:hidden ${showFilter ? 'rotate-90' : ''}`} src={assets.arrow} alt="" />
+          <img className={`h-3 mx-3 sm:hidden ${showFilter ? 'rotate-90' : ''}`} src={assets.arrow} alt="Arrow" />
         </p>
 
         {/* Category Filter */}

@@ -18,7 +18,7 @@ const Navbar = () => {
 
     return (
     <div className={`flex items-center justify-between h-12 px-4 sm:px-[5vw] md:px-[7vw] lg:px-[9vw] sticky-top ${sticky ? 'bg-white duration-500' : ''}`}>
-        <Link to='/'><img src={assets.logoFull} className='w-[110px]' alt="" /></Link>
+        <Link to='/'><img src={assets.logoFull} className='w-[110px]' alt="Logo" /></Link>
         <ul className='mx-3 sm:flex gap-4 text-[1rem] text-black hidden'>
           <NavLink to='/' className='flex flex-col items-center gap-1 '>
             <p>HOME</p>
@@ -38,9 +38,9 @@ const Navbar = () => {
           </NavLink>
         </ul>
         <div className='flex items-center gap-6'>
-          <img onClick={()=>setShowSearch(true)} className='w-5 cursor-pointer' src={assets.search} alt="" />
+          <img onClick={()=>setShowSearch(true)} className='w-5 cursor-pointer' src={assets.search} alt="Search" />
             <div className='group relative'>
-              <Link to='/login'><img className='w-5 cursor-pointer' src={assets.profile} alt="" /></Link>
+              <Link to='/login'><img className='w-5 cursor-pointer' src={assets.profile} alt="Profile" /></Link>
               <div className='group-hover:block hidden absolute dropdown-menu right-0 p-0 m-0'>
                 <div className='flex flex-col gap-2 py-3 px-3 bg-slate-100 text-gray-500 rounded'>
                   <Link to='/login'><p className='cursor-pointer hover:text-black'>My Profile</p></Link>
@@ -50,10 +50,10 @@ const Navbar = () => {
               </div>
             </div>
             <Link to='/cart' className='relative'>
-              <img src={assets.cart} className='w-6 cursor-pointer' alt="" />
+              <img src={assets.cart} className='w-6 cursor-pointer' alt="Cart" />
               <p className='absolute right-[-5px] bottom-[-5px] w-4 text-center leading-4 bg-black text-white aspect-square rounded-full text-[8px]'>{getCartCount()}</p>
             </Link>
-            <img onClick={()=>setVisible(true)} src={assets.menu} className='w-8 cursor-pointer sm:hidden' alt=""></img>
+            <img onClick={()=>setVisible(true)} src={assets.menu} className='w-8 cursor-pointer sm:hidden' alt="Menu"></img>
         </div>
 
         {/*Sidebar for small screens*/}
@@ -61,7 +61,7 @@ const Navbar = () => {
         <div className={`fixed top-0 right-0 bottom-0 overflow-hidden backdrop-blur-xl transition-all ${visible ? 'w-full' : 'w-0'}`}>
           <div className='flex flex-col text-gray-600'>
             <div onClick={()=>setVisible(false)} className='flex items-center gap-4 p-3 cursor-pointer'>
-              <img className='h-7' src={assets.close} alt="" />
+              <img className='h-7' src={assets.close} alt="Close button" />
             </div>
             <NavLink onClick={()=>setVisible(false)} className='py-2 pl-6 border' to='/'>HOME</NavLink>
             <NavLink onClick={()=>setVisible(false)} className='py-2 pl-6 border' to='/collection'>COLLECTION</NavLink>
