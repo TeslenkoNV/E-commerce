@@ -10,6 +10,7 @@ const LatestCollection = () => {
    
     useEffect(() => {
         setLatestProducts(products.slice(0,8));
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     },[])
 
   return (

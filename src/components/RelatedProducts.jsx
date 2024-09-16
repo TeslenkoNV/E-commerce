@@ -17,6 +17,7 @@ useEffect(() => {
 
         setRelated(productsCopy.slice(0,5));
     }
+// eslint-disable-next-line react-hooks/exhaustive-deps
 },[products])
 
   return (
