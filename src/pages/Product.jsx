@@ -1,5 +1,4 @@
-// eslint-disable-next-line no-unused-vars
-import React, { useContext, useEffect, useState } from 'react'
+import { useContext, useEffect, useState } from 'react'
 import { ShopContext } from '../context/ShopContext'
 import { useParams } from 'react-router-dom'
 import { assets } from '../assets/assets'

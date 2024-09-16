@@ -39,4 +39,4 @@
 
 ## Ссылки
 - [Демонстрация]()
-- [Код проекта на GitHub](https://github.com/TeslenkoNV/e-commerce))
+- [Код проекта на GitHub](https://github.com/TeslenkoNV/e-commerce)

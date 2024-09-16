@@ -84,10 +84,12 @@ const sortProduct = () => {
 
 useEffect(() => {
   applyFilter()
+// eslint-disable-next-line react-hooks/exhaustive-deps
 }, [category,subCategory,color,search,showSearch])
 
 useEffect(() => {
   sortProduct();
+// eslint-disable-next-line react-hooks/exhaustive-deps
 },[sortType])
 
   return (

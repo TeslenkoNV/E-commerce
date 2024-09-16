@@ -44,6 +44,7 @@ const ShopContextProvider = (prop) => {
                     if (cartItems[items][item] > 0) {
                         totalAmout += itemInfo.price * cartItems[items][item]
                     }
+                // eslint-disable-next-line no-unused-vars, no-empty
                 } catch (error) {}
             }
         }
@@ -58,6 +59,7 @@ const ShopContextProvider = (prop) => {
                     if (cartItems[items][item] > 0) {
                         totalCount += cartItems[items][item];
                     }
+                // eslint-disable-next-line no-unused-vars, no-empty
                 } catch (error) {}
             }
         }
