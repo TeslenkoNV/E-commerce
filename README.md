@@ -38,5 +38,5 @@
 5. Откройте браузер и перейдите по адресу [http://localhost:3000](http://localhost:3000) для просмотра приложения.
 
 ## Ссылки
-- [Демонстрация]()
+- [Демонстрация](https://ecommerce-beryl-five.vercel.app/)
 - [Код проекта на GitHub](https://github.com/TeslenkoNV/e-commerce)
